@@ -1,24 +1,16 @@
-# Password Cracking and Protection Toolkit
+# 🔐 Password Cracking & Protection Toolkit
 
-This toolkit was developed as part of my internship with Cothon Solutions to help interns understand password hashing, brute force attacks, and strong password policies. It includes functionalities like:
+## 📌 Overview
+A Python-based tool to demonstrate password vulnerabilities and security techniques.
 
-- **Password Hashing**: Using `bcrypt` for secure password storage.
-- **AES Encryption and Decryption**: Encrypting sensitive data with AES encryption.
-- **Password Policy Check**: Ensuring passwords meet strong security standards.
-- **Brute Force Cracking Simulation**: Demonstrating how password strength can be tested using brute force.
+## ⚙️ Features
+- Password hashing using hashlib  
+- Brute-force attack simulation  
+- Demonstrates strong vs weak passwords  
 
-## Requirements
+## 🛠️ Technologies
+- Python  
 
-- Python 3.x
-- Install dependencies with `pip install -r requirements.txt`.
-
-## Usage
-
-1. Clone the repository.
-2. Install the required packages: `pip install -r requirements.txt`.
-3. Run the script with: `python password_toolkit.py`.
-
-## Author
-
-Your Name  
-Intern at Cothon Solutions
+## ▶️ How to Run
+```bash
+python main.py
