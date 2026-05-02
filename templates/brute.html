@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Brute Force</h2>
+<form method="POST" action="/brute">
+<input name="password">
+<button>Start</button>
+</form>
+<p>{{ result }}</p>
+{% endblock %}

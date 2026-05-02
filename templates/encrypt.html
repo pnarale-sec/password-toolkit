@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Encryption</h2>
+<form method="POST" action="/encrypt">
+<input name="message" placeholder="Message">
+<input name="password" placeholder="Password">
+<button>Run</button>
+</form>
+
+<p>Encrypted: {{ encrypted }}</p>
+<p>Decrypted: {{ decrypted }}</p>
+{% endblock %}
